@@ -1,0 +1,78 @@
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #38dc3d;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button.add {
+  background-color: #38dc3d;
+  color: white;
+}
+
+button.edit {
+  background-color: #2196F3;
+  color: white;
+}
+
+button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
